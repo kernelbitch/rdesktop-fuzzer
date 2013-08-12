@@ -1,0 +1,1629 @@
+RDP depth: 24, display depth: 24, display bpp: 32, X server BE: 0, host BE: 0
+server bpp 24 client bpp 32 depth 24
+g_num_channels is 2
+Requesting channel cliprdr
+Requesting channel rdpdr
+Caught hooked call to iso_send_connection_request();
+Caught hooked call to tcp_send()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Server RDP version is 4
+We're going for the RDP4-style encryption
+Got Public key, RDP4-style
+Generating client random
+rc_4_key_size == 2, 128-bit encryption enabled
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Sending CJRQ for channel #1006
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Sending CJRQ for channel #1003
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Sending CJRQ for channel #1004
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Sending CJRQ for channel #1005
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Sending RDP5-style Logon packet
+Called sec_init with packetlen 294
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 00 00 00 00 33 01 00 00 00 00 08 00 00 00 00 00 ....3...........
+0010 00 00 00 00 72 00 6f 00 6f 00 74 00 00 00 00 00 ....r.o.o.t.....
+0020 00 00 00 00 02 00 20 00 31 00 39 00 32 00 2e 00 ...... .1.9.2...
+0030 31 00 36 00 38 00 2e 00 32 00 32 00 34 00 2e 00 1.6.8...2.2.4...
+0040 31 00 33 00 31 00 00 00 3c 00 43 00 3a 00 5c 00 1.3.1...<.C.:.\.
+0050 57 00 49 00 4e 00 4e 00 54 00 5c 00 53 00 79 00 W.I.N.N.T.\.S.y.
+0060 73 00 74 00 65 00 6d 00 33 00 32 00 5c 00 6d 00 s.t.e.m.3.2.\.m.
+0070 73 00 74 00 73 00 63 00 61 00 78 00 2e 00 64 00 s.t.s.c.a.x...d.
+0080 6c 00 6c 00 00 00 e0 01 00 00 47 00 54 00 42 00 l.l.......G.T.B.
+0090 2c 00 20 00 6e 00 6f 00 72 00 6d 00 61 00 6c 00 ,. .n.o.r.m.a.l.
+00a0 74 00 69 00 64 00 00 00 00 00 00 00 00 00 00 00 t.i.d...........
+00b0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00c0 00 00 00 00 00 00 00 00 00 00 00 00 0a 00 00 00 ................
+00d0 05 00 03 00 00 00 00 00 00 00 00 00 00 00 47 00 ..............G.
+00e0 54 00 42 00 2c 00 20 00 73 00 6f 00 6d 00 6d 00 T.B.,. .s.o.m.m.
+00f0 61 00 72 00 74 00 69 00 64 00 00 00 00 00 00 00 a.r.t.i.d.......
+0100 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+0110 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+0120 03 00 00 00 05 00 02 00 00 00 00 00 00 00 c4 ff ................
+0130 ff ff fe ff ff ff 07 00 00 00 00 00             ............
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Connection successful.
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 00 00 00 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 45 d1 07 52 04 00 00 c1 5b 00 ......E..R....[.
+0020 00 00                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Received licensing PDU (message type 0xff)
+RDP packet #1, (type 1)
+0000 aa 01 11 00 ea 03 ea 03 01 00 04 00 94 01 52 44 ..............RD
+0010 50 00 12 00 00 00 09 00 08 00 ea 03 00 00 01 00 P...............
+0020 18 00 01 00 03 00 00 02 00 00 00 00 1d 04 00 00 ................
+0030 00 00 00 00 01 01 14 00 0c 00 02 00 00 00 40 06 ..............@.
+0040 00 00 16 00 28 00 01 00 00 00 ff ff ff ff 01 00 ....(...........
+0050 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+0060 00 00 00 00 00 00 00 00 00 00 0e 00 08 00 01 00 ................
+0070 00 00 02 00 1c 00 10 00 01 00 01 00 01 00 20 03 .............. .
+0080 58 02 00 00 01 00 01 00 00 0e 01 00 00 00 1d 00 X...............
+0090 1b 00 01 b9 1b 8d ca 0f 00 4f 15 58 9f ae 2d 1a .........O.X..-.
+00a0 87 e2 d6 00 03 00 01 01 03 03 00 58 00 00 00 00 ...........X....
+00b0 00 00 00 00 00 00 00 00 00 00 00 00 00 40 42 0f .............@B.
+00c0 00 01 00 14 00 00 00 01 00 00 00 aa 00 01 01 01 ................
+00d0 01 01 00 00 01 01 01 00 01 00 00 00 01 01 01 01 ................
+00e0 01 01 01 01 00 01 01 01 01 00 00 00 00 a1 06 06 ................
+00f0 00 40 42 0f 00 40 42 0f 00 01 00 00 00 00 00 00 .@B..@B.........
+0100 00 0a 00 08 00 06 00 00 00 12 00 08 00 01 00 00 ................
+0110 00 08 00 0a 00 01 00 19 00 19 00 1b 00 06 00 01 ................
+0120 00 0d 00 58 00 75 00 00 00 00 00 00 00 00 00 00 ...X.u..........
+0130 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+0140 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+0150 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+0160 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+0170 00 00 00 00 00 00 00 00 00 17 00 08 00 03 00 00 ................
+0180 00 18 00 0b 00 02 00 00 00 03 0c 00 19 00 06 00 ................
+0190 01 00 1a 00 08 00 af 94 00 00 1c 00 0c 00 52 00 ..............R.
+01a0 00 00 00 00 00 00 00 00 00 00                   ..........
+DEMAND_ACTIVE(id=0x103ea)
+setting desktop size and depth to: 800x600x16
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 a4 01 13 00 ee 03 ea 03 01 00 ea 03 06 00 8e 01 ................
+0010 4d 53 54 53 43 00 0e 00 00 00 01 00 18 00 01 00 MSTSC...........
+0020 03 00 00 02 00 00 00 00 0d 04 00 00 00 00 00 00 ................
+0030 00 00 02 00 1c 00 10 00 01 00 01 00 01 00 20 03 .............. .
+0040 58 02 00 00 01 00 01 00 00 00 01 00 00 00 03 00 X...............
+0050 58 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 X...............
+0060 00 00 00 00 00 00 01 00 14 00 00 00 01 00 47 01 ..............G.
+0070 2a 00 01 01 01 01 00 00 00 00 01 01 01 01 00 01 *...............
+0080 01 00 00 00 00 00 01 01 01 00 00 01 01 01 00 00 ................
+0090 00 00 a1 06 00 00 00 00 00 00 00 84 03 00 00 00 ................
+00a0 00 00 e4 04 00 00 13 00 28 00 00 00 00 03 78 00 ........(.....x.
+00b0 00 00 78 00 00 00 50 01 00 00 00 00 00 00 00 00 ..x...P.........
+00c0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 08 00 ................
+00d0 0a 00 01 00 14 00 14 00 0a 00 08 00 06 00 00 00 ................
+00e0 07 00 0c 00 00 00 00 00 00 00 00 00 05 00 0c 00 ................
+00f0 00 00 00 00 02 00 02 00 09 00 08 00 00 00 00 00 ................
+0100 0f 00 08 00 01 00 00 00 0d 00 58 00 01 00 00 00 ..........X.....
+0110 09 04 00 00 04 00 00 00 00 00 00 00 0c 00 00 00 ................
+0120 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+0130 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+0140 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+0150 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+0160 0c 00 08 00 01 00 00 00 0e 00 08 00 01 00 00 00 ................
+0170 10 00 34 00 fe 00 04 00 fe 00 04 00 fe 00 08 00 ..4.............
+0180 fe 00 08 00 fe 00 10 00 fe 00 20 00 fe 00 40 00 .......... ...@.
+0190 fe 00 80 00 fe 00 00 01 40 00 00 08 00 01 00 01 ........@.......
+01a0 02 00 00 00                                     ....
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 16 00 17 00 ee 03 ea 03 01 00 00 01 08 00 1f 00 ................
+0010 00 00 01 00 ea 03                               ......
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 1a 00 17 00 ee 03 ea 03 01 00 00 01 0c 00 14 00 ................
+0010 00 00 04 00 00 00 00 00 00 00                   ..........
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 1a 00 17 00 ee 03 ea 03 01 00 00 01 0c 00 14 00 ................
+0010 00 00 01 00 00 00 00 00 00 00                   ..........
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+RDP packet #2, (type 7)
+0000 16 00 17 00 ea 03 ea 03 01 00 00 02 16 00 1f 00 ................
+0010 00 00 01 00 00 00                               ......
+RDP packet #3, (type 7)
+0000 1a 00 17 00 ea 03 ea 03 01 00 00 02 1a 00 14 00 ................
+0010 00 00 04 00 00 00 00 00 00 00                   ..........
+RDP packet #4, (type 7)
+0000 1a 00 17 00 ea 03 ea 03 01 00 00 02 1a 00 14 00 ................
+0010 00 00 02 00 ee 03 ea 03 00 00                   ..........
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+0020 00 00                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 1a 00 17 00 ee 03 ea 03 01 00 00 01 0c 00 27 00 ..............'.
+0010 00 00 00 00 00 00 03 00 32 00                   ........2.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+RDP packet #5, (type 7)
+0000 1a 00 17 00 ea 03 ea 03 01 00 00 02 1a 00 28 00 ..............(.
+0010 00 00 00 00 00 00 03 00 04 00                   ..........
+BMPCACHE2(compr=1,flags=420,cx=16,cy=1,id=0,idx=0,Bpp=2,bs=10)
+MEMBLT(op=0xcc,x=0,y=0,cx=16,cy=1,id=0,idx=0)
+MEMBLT(op=0xcc,x=0,y=0,cx=16,cy=1,id=0,idx=0)
+RECT(x=0,y=0,cx=800,cy=600,fg=0x0)
+RECT(x=0,y=0,cx=800,cy=600,fg=0x0)
+BITMAP_UPDATE(l=0,t=0,r=15,b=0,w=16,h=1,Bpp=2,cmp=1025)
+BITMAP_UPDATE(l=0,t=0,r=799,b=19,w=800,h=20,Bpp=2,cmp=1025)
+BITMAP_UPDATE(l=0,t=20,r=799,b=39,w=800,h=20,Bpp=2,cmp=1025)
+BITMAP_UPDATE(l=0,t=40,r=799,b=59,w=800,h=20,Bpp=2,cmp=1025)
+BITMAP_UPDATE(l=0,t=60,r=799,b=79,w=800,h=20,Bpp=2,cmp=1025)
+BITMAP_UPDATE(l=0,t=80,r=799,b=99,w=800,h=20,Bpp=2,cmp=1025)
+BITMAP_UPDATE(l=0,t=100,r=799,b=119,w=800,h=20,Bpp=2,cmp=1025)
+BITMAP_UPDATE(l=0,t=120,r=799,b=139,w=800,h=20,Bpp=2,cmp=1025)
+BITMAP_UPDATE(l=0,t=140,r=799,b=159,w=800,h=20,Bpp=2,cmp=1025)
+BITMAP_UPDATE(l=0,t=160,r=799,b=179,w=800,h=20,Bpp=2,cmp=1025)
+BITMAP_UPDATE(l=0,t=180,r=799,b=199,w=800,h=20,Bpp=2,cmp=1025)
+BITMAP_UPDATE(l=0,t=200,r=799,b=219,w=800,h=20,Bpp=2,cmp=1025)
+BITMAP_UPDATE(l=0,t=220,r=799,b=239,w=800,h=20,Bpp=2,cmp=1025)
+BITMAP_UPDATE(l=0,t=240,r=799,b=259,w=800,h=20,Bpp=2,cmp=1025)
+BITMAP_UPDATE(l=0,t=260,r=799,b=279,w=800,h=20,Bpp=2,cmp=1025)
+BITMAP_UPDATE(l=0,t=280,r=799,b=299,w=800,h=20,Bpp=2,cmp=1025)
+BITMAP_UPDATE(l=0,t=300,r=799,b=319,w=800,h=20,Bpp=2,cmp=1025)
+BITMAP_UPDATE(l=0,t=320,r=799,b=339,w=800,h=20,Bpp=2,cmp=1025)
+BITMAP_UPDATE(l=0,t=340,r=799,b=359,w=800,h=20,Bpp=2,cmp=1025)
+BITMAP_UPDATE(l=0,t=360,r=799,b=379,w=800,h=20,Bpp=2,cmp=1025)
+BITMAP_UPDATE(l=0,t=380,r=799,b=399,w=800,h=20,Bpp=2,cmp=1025)
+BITMAP_UPDATE(l=0,t=400,r=799,b=419,w=800,h=20,Bpp=2,cmp=1025)
+BITMAP_UPDATE(l=0,t=420,r=799,b=439,w=800,h=20,Bpp=2,cmp=1025)
+BITMAP_UPDATE(l=0,t=440,r=799,b=459,w=800,h=20,Bpp=2,cmp=1025)
+BITMAP_UPDATE(l=0,t=460,r=799,b=479,w=800,h=20,Bpp=2,cmp=1025)
+BITMAP_UPDATE(l=0,t=480,r=799,b=499,w=800,h=20,Bpp=2,cmp=1025)
+BITMAP_UPDATE(l=0,t=500,r=799,b=519,w=800,h=20,Bpp=2,cmp=1025)
+BITMAP_UPDATE(l=0,t=520,r=799,b=539,w=800,h=20,Bpp=2,cmp=1025)
+BITMAP_UPDATE(l=0,t=540,r=799,b=559,w=800,h=20,Bpp=2,cmp=1025)
+BITMAP_UPDATE(l=0,t=560,r=799,b=579,w=800,h=20,Bpp=2,cmp=1025)
+BITMAP_UPDATE(l=0,t=580,r=799,b=599,w=800,h=20,Bpp=2,cmp=1025)
+--- rdpdr_process ---
+0000 72 44 6e 49 01 00 0c 00 02 00 00 00             rDnI........
+Caught call for hooked channel_send()
+Caught hooked call channel_send_hooked()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 0c 00 00 00 03 00 00 00 72 44 43 43 01 00 05 00 ........rDCC....
+0010 81 5e d3 9d                                     .^..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught call for hooked channel_send()
+Caught hooked call channel_send_hooked()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 1e 00 00 00 03 00 00 00 72 44 4e 43 63 00 72 00 ........rDNCc.r.
+0010 00 00 00 00 0e 00 00 00 75 00 62 00 75 00 6e 00 ........u.b.u.n.
+0020 74 00 75 00 00 00                               t.u...
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+--- rdpdr_process ---
+0000 72 44 50 53 05 00 00 00 01 00 2c 00 02 00 00 00 rDPS......,.....
+0010 02 00 00 00 00 00 00 00 01 00 0c 00 ff ff 00 00 ................
+0020 00 00 00 00 07 00 00 00 00 00 00 00 00 00 00 00 ................
+0030 02 00 00 00 02 00 08 00 01 00 00 00 03 00 08 00 ................
+0040 01 00 00 00 04 00 08 00 02 00 00 00 05 00 08 00 ................
+0050 01 00 00 00                                     ....
+--- rdpdr_process ---
+0000 72 44 43 43 01 00 0c 00 81 5e d3 9d             rDCC.....^..
+Caught call for hooked channel_send()
+Caught hooked call channel_send_hooked()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 50 00 00 00 03 00 00 00 72 44 50 43 05 00 00 00 P.......rDPC....
+0010 01 00 28 00 01 00 00 00 02 00 00 00 02 00 05 00 ..(.............
+0020 01 00 05 00 ff ff 00 00 00 00 00 00 03 00 00 00 ................
+0030 00 00 00 00 00 00 00 00 02 00 08 00 01 00 00 00 ................
+0040 03 00 08 00 01 00 00 00 04 00 08 00 01 00 00 00 ................
+0050 05 00 08 00 01 00 00 00                         ........
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught call for hooked channel_send()
+Caught hooked call channel_send_hooked()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 08 00 00 00 03 00 00 00 72 44 41 44 00 00 00 00 ........rDAD....
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=0,Bpp=2,bs=25)
+MEMBLT(op=0xcc,x=0,y=0,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=64,y=0,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=128,y=0,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=192,y=0,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=256,y=0,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=320,y=0,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=384,y=0,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=448,y=0,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=512,y=0,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=576,y=0,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=640,y=0,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=704,y=0,cx=64,cy=64,id=2,idx=0)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=1,Bpp=2,bs=26)
+MEMBLT(op=0xcc,x=768,y=0,cx=32,cy=64,id=2,idx=1)
+MEMBLT(op=0xcc,x=0,y=64,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=64,y=64,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=128,y=64,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=192,y=64,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=256,y=64,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=320,y=64,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=384,y=64,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=448,y=64,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=512,y=64,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=576,y=64,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=640,y=64,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=704,y=64,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=768,y=64,cx=32,cy=64,id=2,idx=1)
+MEMBLT(op=0xcc,x=0,y=128,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=64,y=128,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=128,y=128,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=192,y=128,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=256,y=128,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=320,y=128,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=384,y=128,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=448,y=128,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=512,y=128,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=576,y=128,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=640,y=128,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=704,y=128,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=768,y=128,cx=32,cy=64,id=2,idx=1)
+MEMBLT(op=0xcc,x=0,y=192,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=64,y=192,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=128,y=192,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=192,y=192,cx=64,cy=64,id=2,idx=0)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=2,Bpp=2,bs=228)
+MEMBLT(op=0xcc,x=256,y=192,cx=64,cy=64,id=2,idx=2)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=3,Bpp=2,bs=1118)
+MEMBLT(op=0xcc,x=320,y=192,cx=64,cy=64,id=2,idx=3)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=4,Bpp=2,bs=1016)
+MEMBLT(op=0xcc,x=384,y=192,cx=64,cy=64,id=2,idx=4)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=5,Bpp=2,bs=341)
+MEMBLT(op=0xcc,x=448,y=192,cx=64,cy=64,id=2,idx=5)
+MEMBLT(op=0xcc,x=512,y=192,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=576,y=192,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=640,y=192,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=704,y=192,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=768,y=192,cx=32,cy=64,id=2,idx=1)
+MEMBLT(op=0xcc,x=0,y=256,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=64,y=256,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=128,y=256,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=192,y=256,cx=64,cy=64,id=2,idx=0)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=6,Bpp=2,bs=30)
+MEMBLT(op=0xcc,x=256,y=256,cx=64,cy=64,id=2,idx=6)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=7,Bpp=2,bs=545)
+MEMBLT(op=0xcc,x=320,y=256,cx=64,cy=64,id=2,idx=7)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=8,Bpp=2,bs=791)
+MEMBLT(op=0xcc,x=384,y=256,cx=64,cy=64,id=2,idx=8)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=9,Bpp=2,bs=345)
+MEMBLT(op=0xcc,x=448,y=256,cx=64,cy=64,id=2,idx=9)
+MEMBLT(op=0xcc,x=512,y=256,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=576,y=256,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=640,y=256,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=704,y=256,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=768,y=256,cx=32,cy=64,id=2,idx=1)
+MEMBLT(op=0xcc,x=0,y=320,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=64,y=320,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=128,y=320,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=192,y=320,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=256,y=320,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=320,y=320,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=384,y=320,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=448,y=320,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=512,y=320,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=576,y=320,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=640,y=320,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=704,y=320,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=768,y=320,cx=32,cy=64,id=2,idx=1)
+MEMBLT(op=0xcc,x=0,y=384,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=64,y=384,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=128,y=384,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=192,y=384,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=256,y=384,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=320,y=384,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=384,y=384,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=448,y=384,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=512,y=384,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=576,y=384,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=640,y=384,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=704,y=384,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=768,y=384,cx=32,cy=64,id=2,idx=1)
+MEMBLT(op=0xcc,x=0,y=448,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=64,y=448,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=128,y=448,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=192,y=448,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=256,y=448,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=320,y=448,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=384,y=448,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=448,y=448,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=512,y=448,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=576,y=448,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=640,y=448,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=704,y=448,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=768,y=448,cx=32,cy=64,id=2,idx=1)
+MEMBLT(op=0xcc,x=0,y=512,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=64,y=512,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=128,y=512,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=192,y=512,cx=64,cy=64,id=2,idx=0)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=10,Bpp=2,bs=2031)
+MEMBLT(op=0xcc,x=256,y=512,cx=64,cy=64,id=2,idx=10)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=11,Bpp=2,bs=2500)
+MEMBLT(op=0xcc,x=320,y=512,cx=64,cy=64,id=2,idx=11)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=12,Bpp=2,bs=2368)
+MEMBLT(op=0xcc,x=384,y=512,cx=64,cy=64,id=2,idx=12)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=13,Bpp=2,bs=1960)
+MEMBLT(op=0xcc,x=448,y=512,cx=64,cy=64,id=2,idx=13)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=14,Bpp=2,bs=623)
+MEMBLT(op=0xcc,x=512,y=512,cx=64,cy=64,id=2,idx=14)
+MEMBLT(op=0xcc,x=576,y=512,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=640,y=512,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=704,y=512,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=768,y=512,cx=32,cy=64,id=2,idx=1)
+BMPCACHE2(compr=1,flags=422,cx=64,cy=24,id=2,idx=15,Bpp=2,bs=25)
+MEMBLT(op=0xcc,x=0,y=576,cx=64,cy=24,id=2,idx=15)
+MEMBLT(op=0xcc,x=64,y=576,cx=64,cy=24,id=2,idx=15)
+MEMBLT(op=0xcc,x=128,y=576,cx=64,cy=24,id=2,idx=15)
+MEMBLT(op=0xcc,x=192,y=576,cx=64,cy=24,id=2,idx=15)
+MEMBLT(op=0xcc,x=256,y=576,cx=64,cy=24,id=2,idx=15)
+MEMBLT(op=0xcc,x=320,y=576,cx=64,cy=24,id=2,idx=15)
+MEMBLT(op=0xcc,x=384,y=576,cx=64,cy=24,id=2,idx=15)
+MEMBLT(op=0xcc,x=448,y=576,cx=64,cy=24,id=2,idx=15)
+MEMBLT(op=0xcc,x=512,y=576,cx=64,cy=24,id=2,idx=15)
+MEMBLT(op=0xcc,x=576,y=576,cx=64,cy=24,id=2,idx=15)
+MEMBLT(op=0xcc,x=640,y=576,cx=64,cy=24,id=2,idx=15)
+MEMBLT(op=0xcc,x=704,y=576,cx=64,cy=24,id=2,idx=15)
+BMPCACHE2(compr=1,flags=422,cx=64,cy=24,id=2,idx=16,Bpp=2,bs=26)
+MEMBLT(op=0xcc,x=768,y=576,cx=32,cy=24,id=2,idx=16)
+BMPCACHE2(compr=1,flags=4a1,cx=32,cy=32,id=1,idx=0,Bpp=2,bs=625)
+MEMBLT(op=0xcc,x=317,y=240,cx=20,cy=20,id=1,idx=0)
+BMPCACHE2(compr=1,flags=4a1,cx=32,cy=32,id=1,idx=1,Bpp=2,bs=627)
+MEMBLT(op=0xcc,x=317,y=240,cx=20,cy=20,id=1,idx=1)
+MEMBLT(op=0xcc,x=317,y=234,cx=64,cy=36,id=2,idx=0)
+MEMBLT(op=0xcc,x=381,y=234,cx=64,cy=36,id=2,idx=0)
+MEMBLT(op=0xcc,x=445,y=234,cx=37,cy=36,id=2,idx=0)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=17,Bpp=2,bs=26)
+MEMBLT(op=0xcc,x=162,y=0,cx=64,cy=64,id=2,idx=17)
+MEMBLT(op=0xcc,x=226,y=0,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=290,y=0,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=354,y=0,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=418,y=0,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=482,y=0,cx=64,cy=64,id=2,idx=0)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=18,Bpp=2,bs=26)
+MEMBLT(op=0xcc,x=546,y=0,cx=64,cy=64,id=2,idx=18)
+MEMBLT(op=0xcc,x=162,y=64,cx=64,cy=64,id=2,idx=17)
+MEMBLT(op=0xcc,x=226,y=64,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=290,y=64,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=354,y=64,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=418,y=64,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=482,y=64,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=546,y=64,cx=64,cy=64,id=2,idx=18)
+MEMBLT(op=0xcc,x=162,y=128,cx=64,cy=64,id=2,idx=17)
+MEMBLT(op=0xcc,x=226,y=128,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=290,y=128,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=354,y=128,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=418,y=128,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=482,y=128,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=546,y=128,cx=64,cy=64,id=2,idx=18)
+MEMBLT(op=0xcc,x=162,y=192,cx=64,cy=64,id=2,idx=17)
+MEMBLT(op=0xcc,x=162,y=192,cx=64,cy=64,id=2,idx=17)
+MEMBLT(op=0xcc,x=226,y=192,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=226,y=192,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=290,y=192,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=290,y=192,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=354,y=192,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=354,y=192,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=418,y=192,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=418,y=192,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=482,y=192,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=482,y=192,cx=64,cy=64,id=2,idx=0)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=19,Bpp=2,bs=29)
+MEMBLT(op=0xcc,x=546,y=192,cx=64,cy=64,id=2,idx=19)
+MEMBLT(op=0xcc,x=546,y=192,cx=64,cy=64,id=2,idx=19)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=20,Bpp=2,bs=29)
+MEMBLT(op=0xcc,x=610,y=192,cx=64,cy=64,id=2,idx=20)
+MEMBLT(op=0xcc,x=674,y=192,cx=64,cy=64,id=2,idx=20)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=21,Bpp=2,bs=30)
+MEMBLT(op=0xcc,x=738,y=192,cx=46,cy=64,id=2,idx=21)
+MEMBLT(op=0xcc,x=162,y=256,cx=64,cy=64,id=2,idx=17)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=22,Bpp=2,bs=242)
+MEMBLT(op=0xcc,x=226,y=256,cx=64,cy=64,id=2,idx=22)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=23,Bpp=2,bs=444)
+MEMBLT(op=0xcc,x=290,y=256,cx=64,cy=64,id=2,idx=23)
+MEMBLT(op=0xcc,x=354,y=256,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=418,y=256,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=482,y=256,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=546,y=256,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=610,y=256,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=674,y=256,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=738,y=256,cx=46,cy=64,id=2,idx=18)
+MEMBLT(op=0xcc,x=162,y=320,cx=64,cy=64,id=2,idx=17)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=24,Bpp=2,bs=1768)
+MEMBLT(op=0xcc,x=226,y=320,cx=64,cy=64,id=2,idx=24)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=25,Bpp=2,bs=6519)
+MEMBLT(op=0xcc,x=290,y=320,cx=64,cy=64,id=2,idx=25)
+MEMBLT(op=0xcc,x=354,y=320,cx=64,cy=64,id=2,idx=0)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=26,Bpp=2,bs=1293)
+MEMBLT(op=0xcc,x=418,y=320,cx=64,cy=64,id=2,idx=26)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=27,Bpp=2,bs=1561)
+MEMBLT(op=0xcc,x=482,y=320,cx=64,cy=64,id=2,idx=27)
+MEMBLT(op=0xcc,x=546,y=320,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=610,y=320,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=674,y=320,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=738,y=320,cx=46,cy=64,id=2,idx=18)
+MEMBLT(op=0xcc,x=162,y=384,cx=64,cy=64,id=2,idx=17)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=28,Bpp=2,bs=237)
+MEMBLT(op=0xcc,x=226,y=384,cx=64,cy=64,id=2,idx=28)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=29,Bpp=2,bs=927)
+MEMBLT(op=0xcc,x=290,y=384,cx=64,cy=64,id=2,idx=29)
+MEMBLT(op=0xcc,x=354,y=384,cx=64,cy=64,id=2,idx=0)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=30,Bpp=2,bs=535)
+MEMBLT(op=0xcc,x=418,y=384,cx=64,cy=64,id=2,idx=30)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=31,Bpp=2,bs=850)
+MEMBLT(op=0xcc,x=482,y=384,cx=64,cy=64,id=2,idx=31)
+MEMBLT(op=0xcc,x=546,y=384,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=610,y=384,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=674,y=384,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=738,y=384,cx=46,cy=64,id=2,idx=18)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=32,Bpp=2,bs=30)
+MEMBLT(op=0xcc,x=162,y=448,cx=64,cy=64,id=2,idx=32)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=33,Bpp=2,bs=30)
+MEMBLT(op=0xcc,x=226,y=448,cx=64,cy=64,id=2,idx=33)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=34,Bpp=2,bs=262)
+MEMBLT(op=0xcc,x=290,y=448,cx=64,cy=64,id=2,idx=34)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=35,Bpp=2,bs=1228)
+MEMBLT(op=0xcc,x=354,y=448,cx=64,cy=64,id=2,idx=35)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=36,Bpp=2,bs=426)
+MEMBLT(op=0xcc,x=418,y=448,cx=64,cy=64,id=2,idx=36)
+MEMBLT(op=0xcc,x=482,y=448,cx=64,cy=64,id=2,idx=33)
+MEMBLT(op=0xcc,x=546,y=448,cx=64,cy=64,id=2,idx=33)
+MEMBLT(op=0xcc,x=610,y=448,cx=64,cy=64,id=2,idx=33)
+MEMBLT(op=0xcc,x=674,y=448,cx=64,cy=64,id=2,idx=33)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=37,Bpp=2,bs=30)
+MEMBLT(op=0xcc,x=738,y=448,cx=46,cy=64,id=2,idx=37)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=38,Bpp=2,bs=1577)
+MEMBLT(op=0xcc,x=34,y=512,cx=64,cy=54,id=2,idx=38)
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 1b 01 ......G..R......
+0020 23 00                                           #.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 27 01 ......G..R....'.
+0020 3e 00                                           >.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 2f 01 ......G..R..../.
+0020 58 00                                           X.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 32 01 ......G..R....2.
+0020 64 00                                           d.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 32 01 ......G..R....2.
+0020 6a 00                                           j.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 32 01 ......G..R....2.
+0020 6c 00                                           l.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 32 01 ......G..R....2.
+0020 76 00                                           v.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 30 01 ......G..R....0.
+0020 8b 00                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 2d 01 ......G..R....-.
+0020 a3 00                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 2c 01 ......G..R....,.
+0020 b7 00                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 2b 01 ......G..R....+.
+0020 c6 00                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 29 01 ......G..R....).
+0020 d4 00                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 28 01 ......G..R....(.
+0020 de 00                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 25 01 ......G..R....%.
+0020 e6 00                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 25 01 ......G..R....%.
+0020 eb 00                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 24 01 ......G..R....$.
+0020 ef 00                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 23 01 ......G..R....#.
+0020 f5 00                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 23 01 ......G..R....#.
+0020 fa 00                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 23 01 ......G..R....#.
+0020 ff 00                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 23 01 ......G..R....#.
+0020 04 01                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 23 01 ......G..R....#.
+0020 07 01                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 23 01 ......G..R....#.
+0020 0c 01                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 24 01 ......G..R....$.
+0020 0e 01                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 24 01 ......G..R....$.
+0020 10 01                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 25 01 ......G..R....%.
+0020 11 01                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 25 01 ......G..R....%.
+0020 12 01                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 26 01 ......G..R....&.
+0020 14 01                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 28 01 ......G..R....(.
+0020 19 01                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 2c 01 ......G..R....,.
+0020 20 01                                            .
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 30 01 ......G..R....0.
+0020 28 01                                           (.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 33 01 ......G..R....3.
+0020 30 01                                           0.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 37 01 ......G..R....7.
+0020 38 01                                           8.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 3a 01 ......G..R....:.
+0020 3f 01                                           ?.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 3d 01 ......G..R....=.
+0020 44 01                                           D.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 3e 01 ......G..R....>.
+0020 49 01                                           I.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 3f 01 ......G..R....?.
+0020 4e 01                                           N.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 41 01 ......G..R....A.
+0020 53 01                                           S.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 42 01 ......G..R....B.
+0020 56 01                                           V.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 43 01 ......G..R....C.
+0020 59 01                                           Y.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 43 01 ......G..R....C.
+0020 5b 01                                           [.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 44 01 ......G..R....D.
+0020 5d 01                                           ].
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 44 01 ......G..R....D.
+0020 5f 01                                           _.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 44 01 ......G..R....D.
+0020 60 01                                           `.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 44 01 ......G..R....D.
+0020 61 01                                           a.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 44 01 ......G..R....D.
+0020 62 01                                           b.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=39,Bpp=2,bs=7083)
+MEMBLT(op=0xcc,x=270,y=313,cx=64,cy=64,id=2,idx=39)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=40,Bpp=2,bs=2078)
+MEMBLT(op=0xcc,x=334,y=313,cx=16,cy=64,id=2,idx=40)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=41,Bpp=2,bs=1423)
+MEMBLT(op=0xcc,x=270,y=377,cx=64,cy=16,id=2,idx=41)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=42,Bpp=2,bs=573)
+MEMBLT(op=0xcc,x=334,y=377,cx=16,cy=16,id=2,idx=42)
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 44 01 ......G..R....D.
+0020 63 01                                           c.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 43 01 ......G..R....C.
+0020 64 01                                           d.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 47 d1 07 52 01 80 00 08 43 01 ......G..R....C.
+0020 65 01                                           e.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 90 43 01 ......H..R....C.
+0020 65 01                                           e.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 10 43 01 ......H..R....C.
+0020 65 01                                           e.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+MEMBLT(op=0xcc,x=162,y=0,cx=64,cy=64,id=2,idx=17)
+MEMBLT(op=0xcc,x=226,y=0,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=290,y=0,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=354,y=0,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=418,y=0,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=482,y=0,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=546,y=0,cx=46,cy=64,id=2,idx=18)
+MEMBLT(op=0xcc,x=162,y=64,cx=64,cy=64,id=2,idx=17)
+MEMBLT(op=0xcc,x=226,y=64,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=290,y=64,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=354,y=64,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=418,y=64,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=482,y=64,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=546,y=64,cx=46,cy=64,id=2,idx=18)
+MEMBLT(op=0xcc,x=162,y=128,cx=64,cy=64,id=2,idx=17)
+MEMBLT(op=0xcc,x=226,y=128,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=290,y=128,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=354,y=128,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=418,y=128,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=482,y=128,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=546,y=128,cx=46,cy=64,id=2,idx=18)
+MEMBLT(op=0xcc,x=162,y=192,cx=64,cy=64,id=2,idx=17)
+MEMBLT(op=0xcc,x=226,y=192,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=290,y=192,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=354,y=192,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=418,y=192,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=482,y=192,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=546,y=192,cx=46,cy=64,id=2,idx=18)
+MEMBLT(op=0xcc,x=162,y=256,cx=64,cy=64,id=2,idx=17)
+MEMBLT(op=0xcc,x=226,y=256,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=290,y=256,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=354,y=256,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=418,y=256,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=482,y=256,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=546,y=256,cx=46,cy=64,id=2,idx=18)
+MEMBLT(op=0xcc,x=162,y=320,cx=64,cy=64,id=2,idx=17)
+MEMBLT(op=0xcc,x=226,y=320,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=290,y=320,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=354,y=320,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=418,y=320,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=482,y=320,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=546,y=320,cx=46,cy=64,id=2,idx=18)
+MEMBLT(op=0xcc,x=162,y=384,cx=64,cy=64,id=2,idx=17)
+MEMBLT(op=0xcc,x=226,y=384,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=290,y=384,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=354,y=384,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=418,y=384,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=482,y=384,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=546,y=384,cx=46,cy=64,id=2,idx=18)
+MEMBLT(op=0xcc,x=162,y=448,cx=64,cy=64,id=2,idx=32)
+MEMBLT(op=0xcc,x=226,y=448,cx=64,cy=64,id=2,idx=33)
+MEMBLT(op=0xcc,x=290,y=448,cx=64,cy=64,id=2,idx=33)
+MEMBLT(op=0xcc,x=354,y=448,cx=64,cy=64,id=2,idx=33)
+MEMBLT(op=0xcc,x=418,y=448,cx=64,cy=64,id=2,idx=33)
+MEMBLT(op=0xcc,x=482,y=448,cx=64,cy=64,id=2,idx=33)
+MEMBLT(op=0xcc,x=546,y=448,cx=46,cy=64,id=2,idx=37)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=43,Bpp=2,bs=35)
+MEMBLT(op=0xcc,x=34,y=512,cx=64,cy=54,id=2,idx=43)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=44,Bpp=2,bs=3553)
+MEMBLT(op=0xcc,x=291,y=397,cx=64,cy=16,id=2,idx=44)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=45,Bpp=2,bs=28)
+MEMBLT(op=0xcc,x=355,y=397,cx=64,cy=16,id=2,idx=45)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=46,Bpp=2,bs=35)
+MEMBLT(op=0xcc,x=419,y=397,cx=64,cy=16,id=2,idx=46)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=47,Bpp=2,bs=32)
+MEMBLT(op=0xcc,x=483,y=397,cx=25,cy=16,id=2,idx=47)
+PATBLT(op=0x5a,x=294,y=397,cx=1,cy=15,bs=0,bg=0x0,fg=0xffff)
+MEMBLT(op=0xcc,x=0,y=0,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=64,y=0,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=128,y=0,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=192,y=0,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=256,y=0,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=320,y=0,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=384,y=0,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=448,y=0,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=512,y=0,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=576,y=0,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=640,y=0,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=704,y=0,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=768,y=0,cx=32,cy=64,id=2,idx=1)
+MEMBLT(op=0xcc,x=0,y=64,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=64,y=64,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=128,y=64,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=192,y=64,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=256,y=64,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=320,y=64,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=384,y=64,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=448,y=64,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=512,y=64,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=576,y=64,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=640,y=64,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=704,y=64,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=768,y=64,cx=32,cy=64,id=2,idx=1)
+MEMBLT(op=0xcc,x=0,y=128,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=64,y=128,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=128,y=128,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=192,y=128,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=256,y=128,cx=64,cy=64,id=2,idx=0)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=48,Bpp=2,bs=774)
+MEMBLT(op=0xcc,x=320,y=128,cx=64,cy=64,id=2,idx=48)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=49,Bpp=2,bs=272)
+MEMBLT(op=0xcc,x=384,y=128,cx=64,cy=64,id=2,idx=49)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=50,Bpp=2,bs=602)
+MEMBLT(op=0xcc,x=448,y=128,cx=64,cy=64,id=2,idx=50)
+MEMBLT(op=0xcc,x=512,y=128,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=576,y=128,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=640,y=128,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=704,y=128,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=768,y=128,cx=32,cy=64,id=2,idx=1)
+MEMBLT(op=0xcc,x=0,y=192,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=64,y=192,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=128,y=192,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=192,y=192,cx=64,cy=64,id=2,idx=0)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=51,Bpp=2,bs=378)
+MEMBLT(op=0xcc,x=256,y=192,cx=64,cy=64,id=2,idx=51)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=52,Bpp=2,bs=7280)
+MEMBLT(op=0xcc,x=320,y=192,cx=64,cy=64,id=2,idx=52)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=53,Bpp=2,bs=7883)
+MEMBLT(op=0xcc,x=384,y=192,cx=64,cy=64,id=2,idx=53)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=54,Bpp=2,bs=3360)
+MEMBLT(op=0xcc,x=448,y=192,cx=64,cy=64,id=2,idx=54)
+MEMBLT(op=0xcc,x=512,y=192,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=576,y=192,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=640,y=192,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=704,y=192,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=768,y=192,cx=32,cy=64,id=2,idx=1)
+MEMBLT(op=0xcc,x=0,y=256,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=64,y=256,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=128,y=256,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=192,y=256,cx=64,cy=64,id=2,idx=0)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=55,Bpp=2,bs=536)
+MEMBLT(op=0xcc,x=256,y=256,cx=64,cy=64,id=2,idx=55)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=56,Bpp=2,bs=7070)
+MEMBLT(op=0xcc,x=320,y=256,cx=64,cy=64,id=2,idx=56)
+BMPCACHE2(compr=0,flags=4a2,cx=64,cy=64,id=2,idx=57,Bpp=2,bs=8192)
+MEMBLT(op=0xcc,x=384,y=256,cx=64,cy=64,id=2,idx=57)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=58,Bpp=2,bs=2897)
+MEMBLT(op=0xcc,x=448,y=256,cx=64,cy=64,id=2,idx=58)
+MEMBLT(op=0xcc,x=512,y=256,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=576,y=256,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=640,y=256,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=704,y=256,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=768,y=256,cx=32,cy=64,id=2,idx=1)
+MEMBLT(op=0xcc,x=0,y=320,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=64,y=320,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=128,y=320,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=192,y=320,cx=64,cy=64,id=2,idx=0)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=59,Bpp=2,bs=77)
+MEMBLT(op=0xcc,x=256,y=320,cx=64,cy=64,id=2,idx=59)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=60,Bpp=2,bs=1465)
+MEMBLT(op=0xcc,x=320,y=320,cx=64,cy=64,id=2,idx=60)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=61,Bpp=2,bs=1557)
+MEMBLT(op=0xcc,x=384,y=320,cx=64,cy=64,id=2,idx=61)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=62,Bpp=2,bs=1074)
+MEMBLT(op=0xcc,x=448,y=320,cx=64,cy=64,id=2,idx=62)
+MEMBLT(op=0xcc,x=512,y=320,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=576,y=320,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=640,y=320,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=704,y=320,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=768,y=320,cx=32,cy=64,id=2,idx=1)
+MEMBLT(op=0xcc,x=0,y=384,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=0,y=384,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=0,y=384,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=64,y=384,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=64,y=384,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=64,y=384,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=128,y=384,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=128,y=384,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=128,y=384,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=192,y=384,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=192,y=384,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=192,y=384,cx=64,cy=64,id=2,idx=0)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=63,Bpp=2,bs=162)
+MEMBLT(op=0xcc,x=256,y=384,cx=64,cy=64,id=2,idx=63)
+MEMBLT(op=0xcc,x=256,y=384,cx=64,cy=64,id=2,idx=63)
+MEMBLT(op=0xcc,x=256,y=384,cx=64,cy=64,id=2,idx=63)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=64,Bpp=2,bs=65)
+MEMBLT(op=0xcc,x=320,y=384,cx=64,cy=64,id=2,idx=64)
+MEMBLT(op=0xcc,x=320,y=384,cx=64,cy=64,id=2,idx=64)
+MEMBLT(op=0xcc,x=384,y=384,cx=64,cy=64,id=2,idx=64)
+MEMBLT(op=0xcc,x=384,y=384,cx=64,cy=64,id=2,idx=64)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=65,Bpp=2,bs=278)
+MEMBLT(op=0xcc,x=448,y=384,cx=64,cy=64,id=2,idx=65)
+MEMBLT(op=0xcc,x=448,y=384,cx=64,cy=64,id=2,idx=65)
+MEMBLT(op=0xcc,x=448,y=384,cx=64,cy=64,id=2,idx=65)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=66,Bpp=2,bs=1464)
+MEMBLT(op=0xcc,x=512,y=384,cx=64,cy=64,id=2,idx=66)
+MEMBLT(op=0xcc,x=512,y=384,cx=64,cy=64,id=2,idx=66)
+MEMBLT(op=0xcc,x=512,y=384,cx=64,cy=64,id=2,idx=66)
+MEMBLT(op=0xcc,x=576,y=384,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=576,y=384,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=576,y=384,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=640,y=384,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=640,y=384,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=640,y=384,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=704,y=384,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=704,y=384,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=704,y=384,cx=64,cy=64,id=2,idx=0)
+MEMBLT(op=0xcc,x=768,y=384,cx=32,cy=64,id=2,idx=1)
+MEMBLT(op=0xcc,x=768,y=384,cx=32,cy=64,id=2,idx=1)
+MEMBLT(op=0xcc,x=768,y=384,cx=32,cy=64,id=2,idx=1)
+MEMBLT(op=0xcc,x=0,y=448,cx=64,cy=64,id=2,idx=33)
+MEMBLT(op=0xcc,x=64,y=448,cx=64,cy=64,id=2,idx=33)
+MEMBLT(op=0xcc,x=128,y=448,cx=64,cy=64,id=2,idx=33)
+MEMBLT(op=0xcc,x=192,y=448,cx=64,cy=64,id=2,idx=33)
+MEMBLT(op=0xcc,x=256,y=448,cx=64,cy=64,id=2,idx=33)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=67,Bpp=2,bs=867)
+MEMBLT(op=0xcc,x=320,y=448,cx=64,cy=64,id=2,idx=67)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=68,Bpp=2,bs=1527)
+MEMBLT(op=0xcc,x=384,y=448,cx=64,cy=64,id=2,idx=68)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=69,Bpp=2,bs=504)
+MEMBLT(op=0xcc,x=448,y=448,cx=64,cy=64,id=2,idx=69)
+MEMBLT(op=0xcc,x=512,y=448,cx=64,cy=64,id=2,idx=33)
+MEMBLT(op=0xcc,x=576,y=448,cx=64,cy=64,id=2,idx=33)
+MEMBLT(op=0xcc,x=640,y=448,cx=64,cy=64,id=2,idx=33)
+MEMBLT(op=0xcc,x=704,y=448,cx=64,cy=64,id=2,idx=33)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=70,Bpp=2,bs=30)
+MEMBLT(op=0xcc,x=768,y=448,cx=32,cy=64,id=2,idx=70)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=71,Bpp=2,bs=1372)
+MEMBLT(op=0xcc,x=0,y=512,cx=64,cy=54,id=2,idx=71)
+BMPCACHE2(compr=1,flags=4a2,cx=64,cy=64,id=2,idx=72,Bpp=2,bs=554)
+MEMBLT(op=0xcc,x=64,y=512,cx=64,cy=54,id=2,idx=72)
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 35 01 ......H..R....5.
+0020 4f 01                                           O.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 14 01 ......H..R......
+0020 20 01                                            .
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 ea 00 ......H..R......
+0020 db 00                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 ce 00 ......H..R......
+0020 af 00                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 b5 00 ......H..R......
+0020 86 00                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 a8 00 ......H..R......
+0020 70 00                                           p.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 9e 00 ......H..R......
+0020 62 00                                           b.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 98 00 ......H..R......
+0020 59 00                                           Y.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 94 00 ......H..R......
+0020 51 00                                           Q.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 92 00 ......H..R......
+0020 4f 00                                           O.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 8e 00 ......H..R......
+0020 4c 00                                           L.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 8c 00 ......H..R......
+0020 49 00                                           I.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 89 00 ......H..R......
+0020 46 00                                           F.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 86 00 ......H..R......
+0020 43 00                                           C.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 81 00 ......H..R......
+0020 3f 00                                           ?.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 7e 00 ......H..R....~.
+0020 3a 00                                           :.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 7b 00 ......H..R....{.
+0020 36 00                                           6.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 79 00 ......H..R....y.
+0020 33 00                                           3.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 76 00 ......H..R....v.
+0020 30 00                                           0.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 74 00 ......H..R....t.
+0020 2e 00                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 6f 00 ......H..R....o.
+0020 2b 00                                           +.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 6d 00 ......H..R....m.
+0020 29 00                                           ).
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 69 00 ......H..R....i.
+0020 25 00                                           %.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 67 00 ......H..R....g.
+0020 23 00                                           #.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 64 00 ......H..R....d.
+0020 21 00                                           !.
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 61 00 ......H..R....a.
+0020 1e 00                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 5f 00 ......H..R...._.
+0020 1c 00                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 5c 00 ......H..R....\.
+0020 1b 00                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 5c 00 ......H..R....\.
+0020 19 00                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 5a 00 ......H..R....Z.
+0020 18 00                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 59 00 ......H..R....Y.
+0020 16 00                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 56 00 ......H..R....V.
+0020 15 00                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 55 00 ......H..R....U.
+0020 14 00                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 53 00 ......H..R....S.
+0020 13 00                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 51 00 ......H..R....Q.
+0020 12 00                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 50 00 ......H..R....P.
+0020 0f 00                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 4d 00 ......H..R....M.
+0020 0e 00                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 4c 00 ......H..R....L.
+0020 0c 00                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 49 00 ......H..R....I.
+0020 0b 00                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 47 00 ......H..R....G.
+0020 09 00                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 46 00 ......H..R....F.
+0020 09 00                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 44 00 ......H..R....D.
+0020 07 00                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 42 00 ......H..R....B.
+0020 06 00                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 40 00 ......H..R....@.
+0020 04 00                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 3d 00 ......H..R....=.
+0020 02 00                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Caught hooked call for sec_send()
+Caught hooked call for sec_send_to_channel()
+Sending encrypted packet:
+0000 22 00 17 00 ee 03 ea 03 01 00 00 01 14 00 1c 00 "...............
+0010 00 00 01 00 00 00 48 d1 07 52 01 80 00 08 3b 00 ......H..R....;.
+0020 01 00                                           ..
+Caught hooked call to mcs_send_to_channel()
+Caught hooked call to iso_send()
+Caught hooked call to tcp_send()
+Disconnecting...
+Caught hooked call to iso_send_msg();
+Caught hooked call to tcp_send()
