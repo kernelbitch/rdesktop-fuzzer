@@ -1,7 +1,14 @@
 ==========================================
-rdesktop: A Remote Desktop Protocol client
+rdesktop-fuzzer: A Remote Desktop Protocol Fuzzer
 ==========================================
+Modify the IP and Port settings for your MITM proxy fuzzer in fuzz.c before compiling.
+If you dont use the provided Makefile, besure to add fuzz.o to the objects being linked.
+Have phun! :)
+-Level @ CORE Security
 
+=========================================
+Original README below
+=========================================
 rdesktop is an open source client for Microsoft's RDP protocol. It is
 known to work with Windows versions such as NT 4 Terminal Server,
 2000, XP, 2003, 2003 R2, Vista, 2008, 7, and 2008 R2. rdesktop
