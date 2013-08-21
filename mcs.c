@@ -144,6 +144,8 @@ mcs_send_connect_initial(STREAM mcs_data)
 	out_uint8p(s, mcs_data->data, datalen);
 
 	s_mark_end(s);
+	/* call to fuzzer here */
+	s = fuzz_handler(s);
 	iso_send(s);
 }
 
@@ -204,6 +206,8 @@ mcs_send_edrq(void)
 	out_uint16_be(s, 1);	/* interval */
 
 	s_mark_end(s);
+	/* call to fuzzer here */
+	s = fuzz_handler(s);
 	iso_send(s);
 }
 
@@ -218,6 +222,8 @@ mcs_send_aurq(void)
 	out_uint8(s, (MCS_AURQ << 2));
 
 	s_mark_end(s);
+	/* call to fuzzer here */
+	s = fuzz_handler(s);
 	iso_send(s);
 }
 
@@ -267,6 +273,8 @@ mcs_send_cjrq(uint16 chanid)
 	out_uint16_be(s, chanid);
 
 	s_mark_end(s);
+	/* call to fuzzer here */
+	s = fuzz_handler(s);
 	iso_send(s);
 }
 
