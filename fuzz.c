@@ -33,16 +33,19 @@ STREAM fuzz_handler(STREAM data)
 			si_me_rcv.sin_family = AF_INET;
 			si_me_rcv.sin_port = htons(9876);
 			si_me_rcv.sin_addr.s_addr = htonl(INADDR_ANY);
-			/* proxy fuzzer ip address */
+			/* proxy fuzzer ip address, CHANGE BELOW! */
 			if (inet_aton("127.0.0.1", &si_other_send.sin_addr)!=0) {
+				/* proxy fuzzer ip address, CHANGE ABOVE! */
 				/* bind to rcv port */
 				if (bind(s_rcv, &si_me_rcv, sizeof(si_me_rcv))!=-1) {
 					/* send packet to fuzzer */
-					if (sendto(s_send, data, 1496, 0, &si_other_send, slen_send)!=-1) {
+					/* had to lower frame size to 1024 otherwise Peach complains */
+					if (sendto(s_send, data, 1024, 0, &si_other_send, slen_send)!=-1) {
 						DEBUG(("Packet sent to be fuzzed\n"));
 					}
 					/* rcv packet from fuzzer */
-					if (recvfrom(s_rcv, buf, 1496, 0, &si_other_rcv, &slen_rcv)!=-1) {
+					/* had to lower frame size to 1024 otherwise Peach complains */
+					if (recvfrom(s_rcv, buf, 1024, 0, &si_other_rcv, &slen_rcv)!=-1) {
 						DEBUG(("Received packet from %s:%d\n", inet_ntoa(si_other_rcv.sin_addr), ntohs(si_other_rcv.sin_port)));
 					}
 				}
